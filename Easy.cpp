@@ -19,4 +19,4 @@ int main()
     z2 = cos(1.5 * M_PI - a) / sin(1.5 * M_PI - a);
     cout << z1 << " = " << z2;
     return 0;
-}
+} 
