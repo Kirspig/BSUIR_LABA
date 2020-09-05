@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    double x, y, a, z1, z2, pi;
+    double x, y, a, z1, z2;
     cout << "Введите произвольное число: ";
     while (!(cin >> a)) {
         cout << "Вы ввели не число";
