@@ -7,6 +7,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     double x, y, a, b, c, rez;
     cout << "Введите x произвольное число: ";
     while (!(cin >> a)) {
