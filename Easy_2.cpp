@@ -8,7 +8,6 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    int key;
     double x, input, rez;
     cout << "Введите z: ";
     while (!(cin >> input)) {
