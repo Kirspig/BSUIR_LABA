@@ -36,20 +36,12 @@ int main() {
             return 0;
         }
         if (input > 0) {
-            key = 1;
-        }
-        else {
-            key = 2;
-        }
-        switch (key) {
-        case 1:
             cout << "   z>0 и ";
             x = 1 / (input * input + 2 * input);
-            break;
-        case 2:
+        }
+        else {
             cout << "   z<=0 и ";
             x = 1 - input * input * input;
-            break;
         }
         switch (choice) {
         case 1:
