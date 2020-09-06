@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    int key, choice;
+    int choice;
     double a, b, f=0, x=0, input, rez;
     cout << "Выберите Ф(х):\n1) 2x\n2) x^2\n3) x/3\n";
     while (!(cin >> choice)) {
